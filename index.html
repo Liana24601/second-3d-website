@@ -9,6 +9,10 @@
     </head>
     <body>
         <a-scene>
+            <a-assets>
+                <a-asset-item id="my-model" src="https://drive.google.com/uc?export=download&id=1A5VTb8CnhSJiIFVE5DbvvWZ2EPOathBt"></a-asset-item>
+            <a-entity> gltf-model="my-model" position="0 1.6 -3"</a-entity>
+            </a-assets>
             <a-entity environment="preset: contact"></a-entity>
             <a-sphere position="0 0.5 -5" radius="0.7" color="#FFFFFF"></a-sphere>
             <a-sphere position="0 1.5 -5" radius="0.4" color="#FFFFFF"></a-sphere>
@@ -20,6 +24,6 @@
             <a-sphere position="0 1.05 -3" radius="0.02" color="#000000"></a-sphere>
             <a-sphere position="0 1.2 -3" radius="0.02" color="#000000"></a-sphere>
             <a-sphere position="0 0.9 -3" radius="0.02" color="#000000"></a-sphere>
-          </a-scene>
+        </a-scene>
     </body>
   </html>
